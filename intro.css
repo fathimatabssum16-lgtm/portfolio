@@ -1,0 +1,41 @@
+.para1 {
+  margin-top: 150px;
+  margin-left: 50px;
+  line-height: 10px;
+}
+
+.intro,
+.intro2 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: navy;
+}
+
+.intro2 {
+  color: purple;
+}
+
+.into-line {
+  font-size: 30px;
+  line-height: 40px;
+  width: 500px;
+}
+
+.view-button,
+.contactme-button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: rgb(218, 174, 218);
+  border-style: solid;
+  border: none;
+  border-radius: 20px;
+}
+
+.view-button:hover,
+.contactme-button:hover {
+  cursor: pointer;
+  background-color: rgb(220, 134, 220);
+  transition: opacity 0.15s;
+  opacity: 1;
+} 
