@@ -1,58 +1,613 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sania Fathima | Portfolio</title>
 
-    <title>
-      Personal Portfolio
-    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet"  href="header.css">
-    <link rel="stylesheet"  href="general.css">
-    <link rel="stylesheet"  href="intro.css">
-    <link rel="stylesheet"  href="about.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="intro.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="responsive.css">
 
-  </head>
+    <script src="script.js" defer></script>
+</head>
 
-  <body>
+<body>
 
-    <header class="header">
-      <div>
-        <p class="sania"> Sania. </p>
-      </div>
-      <div class="middle-section">
-        <button class="home-button">
-          Home
+<header class="header">
+
+    <a class="brand" href="#home">Sania<span>.</span></a>
+
+    <button class="menu-toggle" type="button"
+        aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="middle-section" id="site-nav">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+
+    <a class="hire-button" href="#contact">Hire Me</a>
+
+</header>
+
+<main>
+
+<!-- HOME SECTION -->
+
+<section class="hero section" id="home">
+
+    <div class="hero-copy">
+
+        <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+        <p class="intro">Hi, I'm</p>
+
+        <h1 class="intro2">Sania Fathima</h1>
+
+        <h2 class="role-line">
+            An aspiring
+            <span id="typed-role">Web Developer</span>
+            <span class="typing-cursor">|</span>
+        </h2>
+
+        <p class="into-line">
+            A Computer Science graduate passionate about
+            creating clean, responsive and user-friendly
+            web experiences.
+        </p>
+
+        <div class="hero-actions">
+
+            <a class="view-button" href="#projects">
+                View My Projects →
+            </a>
+
+            <a class="contactme-button" href="#contact">
+                Contact Me
+            </a>
+
+        </div>
+
+        <div class="social-note">
+            HTML5 <span>•</span>
+            CSS3 <span>•</span>
+            JavaScript
+        </div>
+
+    </div>
+
+    <div class="hero-art">
+
+        <div class="art-glow"></div>
+
+        <img src="IT girly.jpg"
+             alt="Technology illustration"
+             class="hero-image">
+
+        <div class="floating-tag tag-one">
+            &lt;/&gt; Frontend
+        </div>
+
+        <div class="floating-tag tag-two">
+            ✦ Creative ideas
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT SECTION -->
+
+<section class="section about-section" id="about">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">GET TO KNOW ME</p>
+
+        <h2>About <span>Me</span></h2>
+
+    </div>
+
+    <div class="about-card">
+
+        <img class="about-img"
+             src="IT girly.jpg"
+             alt="Technology-themed illustration">
+
+        <div class="about-copy">
+
+            <h3>Computer Science Graduate</h3>
+
+            <p>
+                I'm a B.Tech Computer Science graduate from
+                Shadan Women's College of Engineering and
+                Technology, Hyderabad. I enjoy building
+                responsive web pages and exploring how
+                technology can create useful, user-friendly
+                experiences.
+            </p>
+
+            <p>
+                My current interests include frontend
+                development, JavaScript and learning modern
+                web technologies. I'm looking for an
+                opportunity to grow as a web developer
+                and contribute to real-world projects.
+            </p>
+
+            <div class="about-facts">
+
+                <div>
+                    <strong>6.9</strong>
+                    <span>B.Tech CGPA</span>
+                </div>
+
+                <div>
+                    <strong>2026</strong>
+                    <span>Graduation year</span>
+                </div>
+
+                <div>
+                    <strong>Hyderabad</strong>
+                    <span>Location</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS SECTION -->
+
+<section class="section" id="skills">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">WHAT I WORK WITH</p>
+
+        <h2>My <span>Skills</span></h2>
+
+    </div>
+
+    <div class="skills-grid">
+
+        <article class="skill-card">
+            <div class="skill-icon">⌘</div>
+            <h3>Programming</h3>
+            <p>JavaScript · Python</p>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">✧</div>
+            <h3>Web Development</h3>
+            <p>HTML5 · CSS3 · React.js · Node.js</p>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">▤</div>
+            <h3>Databases</h3>
+            <p>SQL · MySQL</p>
+        </article>
+
+        <article class="skill-card">
+            <div class="skill-icon">⚙</div>
+            <h3>Tools</h3>
+            <p>Git · GitHub · VS Code · Power BI</p>
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS SECTION -->
+
+<section class="section projects-section" id="projects">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">SOME THINGS I'VE WORKED ON</p>
+
+        <h2>My <span>Projects</span></h2>
+
+        <p class="section-subtitle">
+            A mix of website development and academic projects.
+        </p>
+
+    </div>
+
+    <div class="project-filters">
+
+        <button class="filter-btn active"
+                data-filter="all" type="button">
+            All
         </button>
-        <button class="about-button">
-          About
+
+        <button class="filter-btn"
+                data-filter="web" type="button">
+            Web Development
         </button>
-        <button class="skill-button">
-          Skills
+
+        <button class="filter-btn"
+                data-filter="academic" type="button">
+            Academic
         </button>
-        <button class="project-button">
-          Projects
-        </button>
-        <button class="contact-button">
-          Contact
-        </button>
-      </div>
-      <div>
-        <button class="hire-button">
-          Hire Me
-        </button>
-      </div>
-    </header>
-    <div class="para1">
-    <p class="intro"> Hi, I'm </p>
-    <p class="intro2"> Sania Fathima </p>
-    <p class="into-line"> A Passionate Web Developer Crafting Modern & Responsive Websites.</p>
-    <button class="view-button"> View My Projects &rarr; </button>
-    <button class="contactme-button"> Contact Me </button>
-  </div>
-  <div class="para2">
-    <img class="about-img" src="IT girly.jpg">
-    <h1 class="line-1"> About Me </h1>
-    <p class="line-2"> I'm a B. Tech graduate in Computer Science with a strong interest in web development, wants to create responsive websites with new innovative, creative designs. </p>
-  </div>
- </body>
+
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card" data-category="web">
+
+            <div class="project-number">01</div>
+
+            <span class="project-type">WEB DEVELOPMENT</span>
+
+            <h3>YouTube Clone</h3>
+
+            <p>
+                Built a responsive YouTube-inspired homepage
+                with a navigation sidebar, search bar, header
+                and video grid using HTML5, CSS3, Flexbox
+                and Grid.
+            </p>
+
+            <div class="tech-list">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Flexbox</span>
+                <span>Grid</span>
+            </div>
+
+            <a class="project-link"
+               href="https://fathimatabssum16-lgtm.github.io/Tabassum-website/youtube.html"
+               target="_blank" rel="noopener">
+                View Live Project ↗
+            </a>
+
+        </article>
+
+
+        <article class="project-card" data-category="web">
+
+            <div class="project-number">02</div>
+
+            <span class="project-type">WEB DEVELOPMENT</span>
+
+            <h3>Personal Portfolio</h3>
+
+            <p>
+                Designed a personal portfolio to present
+                my profile, skills, education and projects
+                using HTML structure and CSS layout techniques.
+            </p>
+
+            <div class="tech-list">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Responsive Design</span>
+            </div>
+
+            <a class="project-link"
+               href="https://fathimatabssum16-lgtm.github.io/portfolio/portfolio.html"
+               target="_blank" rel="noopener">
+                View Live Project ↗
+            </a>
+
+        </article>
+
+
+        <article class="project-card" data-category="academic">
+
+            <div class="project-number">03</div>
+
+            <span class="project-type">ACADEMIC PROJECT</span>
+
+            <h3>Parkinson's Disease Detection</h3>
+
+            <p>
+                Worked on a hierarchical deep learning
+                project using handwriting analysis,
+                feature extraction and classification.
+            </p>
+
+            <div class="tech-list">
+                <span>Deep Learning</span>
+                <span>Handwriting Analysis</span>
+            </div>
+
+        </article>
+
+
+        <article class="project-card" data-category="academic">
+
+            <div class="project-number">04</div>
+
+            <span class="project-type">ACADEMIC PROJECT</span>
+
+            <h3>Cloud Storage Data Integrity Auditing</h3>
+
+            <p>
+                Worked on identity-based cryptography,
+                file verification, hashing and remote
+                auditing to help detect unauthorized
+                changes to stored files.
+            </p>
+
+            <div class="tech-list">
+                <span>Cloud Storage</span>
+                <span>Cryptography</span>
+                <span>Hashing</span>
+            </div>
+
+        </article>
+
+
+        <article class="project-card" data-category="academic">
+
+            <div class="project-number">05</div>
+
+            <span class="project-type">ACADEMIC PROJECT</span>
+
+            <h3>AI-Based Online Shopping System</h3>
+
+            <p>
+                Worked on an AI-based online shopping
+                concept focused on smart product
+                recommendations and user experience.
+            </p>
+
+            <div class="tech-list">
+                <span>AI</span>
+                <span>Recommendations</span>
+            </div>
+
+        </article>
+
+
+        <article class="project-card" data-category="academic">
+
+            <div class="project-number">06</div>
+
+            <span class="project-type">TECHNICAL REPORT</span>
+
+            <h3>Dash Camera Technology</h3>
+
+            <p>
+                Prepared a technical report exploring
+                dash cameras for real-time vehicle
+                monitoring, safety surveillance and
+                smart vehicle security.
+            </p>
+
+            <div class="tech-list">
+                <span>Research</span>
+                <span>Vehicle Safety</span>
+            </div>
+
+        </article>
+
+
+<article class="project-card" data-category="web">
+
+    <div class="project-number">07</div>
+
+    <span class="project-type">WEB DEVELOPMENT</span>
+
+    <h3>Calculator</h3>
+
+    <p>
+        Developed an interactive calculator using HTML,
+        CSS and JavaScript. Designed a clean user interface
+        with functional number buttons, arithmetic
+        operations and a calculation display.
+    </p>
+
+    <div class="tech-list">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>DOM Manipulation</span>
+    </div>
+
+    <a class="project-link"
+       href="YOUR-CALCULATOR-LINK"
+       target="_blank"
+       rel="noopener">
+        View Live Project ↗
+    </a>
+
+</article>
+
+
+    </div>
+
+</section>
+
+
+<!-- EDUCATION SECTION -->
+
+<section class="section education-section" id="education">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">MY LEARNING JOURNEY</p>
+
+        <h2>Education & <span>Certificates</span></h2>
+
+    </div>
+
+    <div class="education-grid">
+
+        <div class="timeline">
+
+            <article class="timeline-item">
+
+                <span class="timeline-year">2022–2026</span>
+
+                <h3>Bachelor of Technology (B.Tech)</h3>
+
+                <p>
+                    Shadan Women's College of Engineering
+                    and Technology, Hyderabad
+                </p>
+
+                <small>CGPA: 6.9</small>
+
+            </article>
+
+            <article class="timeline-item">
+
+                <span class="timeline-year">2020–2022</span>
+
+                <h3>MPC</h3>
+
+                <p>Narayana Junior College, Hyderabad</p>
+
+                <small>68.9%</small>
+
+            </article>
+
+            <article class="timeline-item">
+
+                <span class="timeline-year">2020</span>
+
+                <h3>Class X</h3>
+
+                <p>Mount Mercy School, Hyderabad</p>
+
+                <small>CGPA: 10</small>
+
+            </article>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <h3>Certifications</h3>
+
+            <ul>
+                <li>✓ Python Essentials 1 — Cisco (2025)</li>
+                <li>✓ Python Essentials 2 — Cisco (2025)</li>
+                <li>✓ Automata Theory — Mind Luster (2025)</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+
+<section class="section contact-section" id="contact">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">LET'S CONNECT</p>
+
+        <h2>Contact <span>Me</span></h2>
+
+        <p class="section-subtitle">
+            Have an opportunity or want to discuss a project?
+            Send me a message.
+        </p>
+
+    </div>
+
+    <div class="contact-card">
+
+        <div class="contact-details">
+
+            <h3>I'd love to hear from you.</h3>
+
+            <p>
+                I'm open to entry-level opportunities
+                in web development and software development.
+            </p>
+
+            <a href="mailto:jobs4tabassum@gmail.com">
+                ✉ jobs4tabassum@gmail.com
+            </a>
+
+            <p>Hyderabad, Telangana, India</p>
+
+        </div>
+
+        <form id="contact-form" class="contact-form">
+
+            <label for="visitor-name">Your Name</label>
+            <input id="visitor-name" type="text"
+                   placeholder="Enter your name" required>
+
+            <label for="visitor-email">Your Email</label>
+            <input id="visitor-email" type="email"
+                   placeholder="Enter your email" required>
+
+            <label for="visitor-message">Message</label>
+            <textarea id="visitor-message" rows="4"
+                      placeholder="Write your message..."
+                      required></textarea>
+
+            <button type="submit" class="send-button">
+                Prepare Email →
+            </button>
+
+            <p class="form-note" id="form-note">
+                Your email app will open with your message ready.
+            </p>
+
+        </form>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <a class="brand" href="#home">Sania<span>.</span></a>
+
+    <p>Designed and built with care by Sania Fathima.</p>
+
+    <p>
+        © <span id="current-year"></span>
+        Sania Fathima Tabassum Ateeq
+    </p>
+
+</footer>
+
+
+<button class="back-to-top" type="button"
+        aria-label="Back to top">
+    ↑
+</button>
+
+<script src="script.js"></script>
+
+</body>
 </html>
